@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Etherent Adapter", "Etherent Adapter\Etherent Adapter.vbproj", "{D5855E62-7346-4E53-89BE-5B58735AEBEC}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ethernet Adapter", "Etherent Adapter\Ethernet Adapter.vbproj", "{D5855E62-7346-4E53-89BE-5B58735AEBEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
