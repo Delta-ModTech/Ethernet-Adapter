@@ -22,6 +22,7 @@ Partial Class frmNetworkAdapter01
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmNetworkAdapter01))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.lstMessages = New System.Windows.Forms.ListBox()
@@ -63,7 +64,7 @@ Partial Class frmNetworkAdapter01
         Me.Button3.Text = "Clear"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'Form1
+        'frmNetworkAdapter01
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -72,8 +73,9 @@ Partial Class frmNetworkAdapter01
         Me.Controls.Add(Me.lstMessages)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "frmNetworkAdapter01"
+        Me.Text = "Ethernet Enable/Disable"
         Me.ResumeLayout(False)
 
     End Sub
