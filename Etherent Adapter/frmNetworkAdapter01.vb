@@ -46,7 +46,7 @@ Public Class frmNetworkAdapter01
                 If DirectCast(item("NetConnectionId"), [String]) = txtAdapterName.Text Then
                     lstMessages.Items.Add("Adapter Found...")
                     Using item
-                        item.InvokeMethod("Enable", Nothing)
+                        item.InvokeMethod("Enable", Nothing, Nothing)
                         lstMessages.Items.Add("Adapter Enable...")
                         IsAdapterFound = True
                     End Using

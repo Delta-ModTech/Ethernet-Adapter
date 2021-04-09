@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Etherent_Adapter.Form1
+            Me.MainForm = Global.Etherent_Adapter.frmNetworkAdapter01
         End Sub
     End Class
 End Namespace
